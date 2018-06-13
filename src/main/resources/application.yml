@@ -7,7 +7,11 @@ spring:
     config:
       server:
         git:
-          # https://github.com/dengxyt/springcloud-configserver/blob/master/src/main/resources/application-user.yml
+          # 通过 http://localhost:8004/application/user 进行访问
           uri: https://github.com/dengxyt/springcloud-configserver
           username: dengxyt
           password: orochi4653
+#logging:
+#  level:
+#    org.springframework.cloud: DEBUG
+#    org.springframework.boot: DEBUG
